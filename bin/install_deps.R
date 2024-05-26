@@ -25,7 +25,7 @@ try_install <- function(p) {
 }
 
 
-cit_pkgs <- c('devtools', 'ComplexHeatmap', 'credentials', 'milo', 'sctransform', 'voom', 'glmnet')
+cit_pkgs <- c('devtools', 'ComplexHeatmap', 'credentials', 'milo', 'sctransform', 'edgeR', 'glmnet')
 pkgs <- c('miloR', 'car',
   'parsnip', 'tidymodels', 'yardstick', 'ranger', 'kknn', 
   'devtools', 'curl', 'targets', 'ggpubr', 'ArrayExpress',

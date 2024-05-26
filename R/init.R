@@ -3,7 +3,6 @@ suppressWarnings(suppressMessages(suppressPackageStartupMessages({
 
   source(file.path(Sys.getenv('r_dir'), 'helpers.R'))
   source(file.path(Sys.getenv('r_dir'), 'targets_init.R'))
-  source(file.path('targets', '1-param_grid.R'))
   source(file.path(Sys.getenv('r_dir'), 'S3.R'))
   source(file.path(Sys.getenv('r_dir'), 'format_stim_group.R'))
   source(file.path(Sys.getenv('r_dir'), 'assess_clusters.R'))
@@ -12,7 +11,6 @@ suppressWarnings(suppressMessages(suppressPackageStartupMessages({
   source(file.path(Sys.getenv('r_dir'), 'experiment_meta_data.R'))
   source(file.path(Sys.getenv('r_dir'), 'explore_clusters.R'))
   source(file.path(Sys.getenv('r_dir'), 'plotting.R'))
-  source(file.path(Sys.getenv('r_dir'), 'data_integration.R'))
   source(file.path(Sys.getenv('r_dir'), 'preprocessing_sc.R'))
   source(file.path(Sys.getenv('r_dir'), 'time_informativeness.R'))
   source(file.path(Sys.getenv('r_dir'), 'limma.R'))
